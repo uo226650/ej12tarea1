@@ -1,0 +1,16 @@
+body{
+    background-color:rgba(195, 176, 241, 0.767);
+    color:black;
+}
+h1{
+    text-align:center;
+    color:rgb(41, 10, 82);
+}
+
+footer{
+       margin-top:2em;
+    }
+footer a img{
+        height:31px; 
+        width : 88px;
+    }
