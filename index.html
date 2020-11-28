@@ -13,12 +13,13 @@
     <label for="archivoTexto">Seleccione un archivo de texto: </label>
 
     <input type="file" id="archivoTexto" onchange="lector.leerArchivoTexto(this.files);">
-
-    <p id="nombreArchivo"></p>
-    <p id="tamañoArchivo"></p>
-    <p id="tipoArchivo"></p>
-    <p id="ultimaModificacion"></p>
-    <p id="contenidoArchivo"></p>
+    <div id="informacion">
+        <p id="nombreArchivo"></p>
+        <p id="tamañoArchivo"></p>
+        <p id="tipoArchivo"></p>
+        <p id="ultimaModificacion"></p>
+        <p id="contenidoArchivo"></p>
+    </div>
     <pre id="areaTexto"></pre>
     <p id="errorLectura"></p>
     <footer>
