@@ -28,6 +28,8 @@ class Lector {
     if (this.archivo.type.match(tipoTexto) || this.archivo.type == tipoXML
           || this.archivo.type == tipoJSON) {
       this.muestraContenido();
+      errorArchivo.innerText = ""; //Vacía el mensaje de error
+
     }
     else {
       errorArchivo.innerText = "El contenido de este archivo no se puede mostrar debido a su formato";
